@@ -1,0 +1,19 @@
+digraph  G {label ="a|b|c|d|e";
+node_4[label="a"]
+node_5[label="b"]
+node_3[label="|", shape=circle]
+node_3  -> node_4[dir=none];
+node_3  -> node_5[dir=none];
+node_6[label="c"]
+node_2[label="|", shape=circle]
+node_2  -> node_3[dir=none];
+node_2  -> node_6[dir=none];
+node_7[label="d"]
+node_1[label="|", shape=circle]
+node_1  -> node_2[dir=none];
+node_1  -> node_7[dir=none];
+node_8[label="e"]
+node_0[label="|", shape=circle]
+node_0  -> node_1[dir=none];
+node_0  -> node_8[dir=none];
+}
